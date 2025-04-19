@@ -9,9 +9,9 @@
   --color-dark-100: #312d37;
   --color-dark-900: #000;
 
-  --color-purple-50: #7c3aed;
-  --color-purple-100: #a855f7;
-  --color-purple-200: #bf46ef;
+  --color-purple-50: #05498a;
+  --color-purple-100: #0073d1;
+  --color-purple-200: #00bdad;
 
   --color-gradient: linear-gradient(
     90deg,
@@ -20,6 +20,45 @@
     var(--color-purple-200)
   );
 }
+
+.oculto {
+  display: none;
+}
+
+.mensagem-modo-escuro{
+  display: flex;
+  padding: 15px;
+  background-color: #312d37;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.mensagem-modo-claro{
+  display: flex;
+  padding: 15px;
+  background-color: #ffff;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#mensagem-modo-claro h1{
+  font-family: "Poppins", sans-serif;
+}
+
+#mensagem-modo-escuro h1{
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
+}
+
 
 * {
   font-family: "Poppins", sans-serif;

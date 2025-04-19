@@ -16,11 +16,19 @@
     />
   </head>
   <body>
+
+      <div id = "mensagem-modo-escuro" class = "oculto">
+         <h1> Modo escuro ativado</h1>
+      </div>
+      <div id = "mensagem-modo-claro" class = "oculto">
+        <h1> Modo claro ativado</h1>
+      </div>
+
     <main id="container">
       <form action="" id="login__form">
         <div id="form__header">
           <h1>Login</h1>
-          <i id="mode__icon" class="fa-solid fa-moon"></i>
+          <i id="mode__icon" class="fa-solid fa-moon" onclick="notificarModo()"></i>
         </div>
 
         <div id="social__media">
